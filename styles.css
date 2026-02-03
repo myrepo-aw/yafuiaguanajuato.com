@@ -558,16 +558,24 @@ button {
 }
 
 
+/* Desktop */
 #inicio,
 #tours,
-#contacto {
-    scroll-margin-top: 80px; /* desktop */
+#contacto,
+#servicios-adicionales {
+    scroll-margin-top: 80px;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
     #inicio,
     #tours,
     #contacto {
-        scroll-margin-top: 110px; /* mobile */
+        scroll-margin-top: 110px;
+    }
+
+    /* Servicios adicionales necesita más aire */
+    #servicios-adicionales {
+        scroll-margin-top: 140px;
     }
 }
