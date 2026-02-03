@@ -1,0 +1,13 @@
+# Sistema
+.DS_Store
+
+# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
