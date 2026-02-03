@@ -556,3 +556,18 @@ button {
         text-align: center;
     }
 }
+
+
+#inicio,
+#tours,
+#contacto {
+    scroll-margin-top: 80px; /* desktop */
+}
+
+@media (max-width: 768px) {
+    #inicio,
+    #tours,
+    #contacto {
+        scroll-margin-top: 110px; /* mobile */
+    }
+}
