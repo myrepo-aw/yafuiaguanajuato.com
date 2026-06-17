@@ -52,6 +52,20 @@ button {
     flex: 1;
 }
 
+.header__title-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.header__logo-image {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 .header__title {
     font-size: 1.5rem;
     font-weight: 800;
@@ -579,3 +593,4 @@ button {
         scroll-margin-top: 200px;
     }
 }
+
